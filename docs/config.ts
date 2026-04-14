@@ -88,18 +88,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: "安装与注册", link: "installation" },
                 { text: "创建第一个密码库", link: "creating-your-first-vault" },
-                { text: "导入已有密码", link: "importing-existing-passwords" },
-            ],
-        },
-        {
-            text: "安全与隐私",
-            collapsed: false,
-            items: [
-                {
-                    text: "主密码设置与密码策略",
-                    link: "master-password-setup-and-password-policies",
-                },
-                { text: "备份与恢复", link: "backup-and-restore" },
             ],
         },
         {
@@ -107,26 +95,24 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             collapsed: false,
             items: [
                 { text: "添加与管理密码", link: "adding-and-managing-passwords" },
-                { text: "双因素认证（2FA）", link: "two-factor-authentication" },
-                { text: "自动填充", link: "auto-fill" },
-                { text: "密码生成器", link: "password-generator" },
-                { text: "标签与分组", link: "tags-and-groups" },
-                { text: "搜索与快速访问", link: "search-and-quick-access" },
+                { text: "WebDAV 同步", link: "webdav-sync" },
                 { text: "回收站", link: "recycle-bin" },
-                { text: "Favicon 显示", link: "favicon-display" },
-                { text: "启动聚焦", link: "focus-on-startup" },
-                { text: "快捷键", link: "keyboard-shortcuts" },
+                { text: "自动填充", link: "auto-fill" },
+                { text: "局域网填充服务", link: "local-network-fill-service" },
+                { text: "密码生成器", link: "password-generator" },
+                { text: "搜索与快速访问", link: "search-and-quick-access" },
+                { text: "标签与分组", link: "tags-and-groups" },
+                { text: "导入与导出", link: "importing-and-exporting" },
             ],
         },
         {
-            text: "高级功能",
+            text: "更多功能",
             collapsed: false,
             items: [
-                { text: "WebDAV 同步", link: "webdav-sync" },
-                { text: "局域网填充服务", link: "local-network-fill-service" },
-                { text: "自定义字段", link: "custom-fields" },
-                { text: "附件支持", link: "attachment-support" },
                 { text: "密码克隆", link: "password-cloning" },
+                { text: "快捷键", link: "keyboard-shortcuts" },
+                { text: "Favicon 显示", link: "favicon-display" },
+                { text: "启动聚焦", link: "focus-on-startup" },
             ],
         },
     ];
@@ -138,13 +124,13 @@ function sidebarBlog(): DefaultTheme.SidebarItem[] {
             text: "最新公告",
             link: "new",
         },
-        {
-            text: "常见问题",
-            items: [
-                { text: "FAQ", link: "faq" },
-                { text: "浏览器迁移", link: "migration-browser" },
-            ],
-        },
+        // {
+        //     text: "常见问题",
+        //     items: [
+        //         { text: "FAQ", link: "faq" },
+        //         { text: "浏览器迁移", link: "migration-browser" },
+        //     ],
+        // },
     ];
 }
 

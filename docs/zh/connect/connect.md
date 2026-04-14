@@ -6,7 +6,7 @@
 ## 方式
 
 - 邮箱：do_yzr@163.com
-- QQ: 2394136873
+- QQ：2394136873
 - GitHub Issues：[报告 bug](https://github.com/GodCount/rpass-flutter/issues)。
 
 

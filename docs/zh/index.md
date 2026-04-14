@@ -5,17 +5,17 @@ layout: home
 hero:
     name: "Rpass"
     text: 开源的密码管理器
-    tagline: Rpass 旨在提供安全、便捷的密码存储和管理解决方案。Rpass 都能帮助你轻松管理各种账户的登录信息，生成强密码，并确保你的数据安全无忧。
+    tagline: Rpass 旨在提供安全、便捷的密码存储和管理解决方案。
     actions:
         - theme: brand
           text: 快速开始
           link: /guide/what-is-rpass
+        # - theme: alt
+        #   text: Google Play
+        #   link: https://play.google.com/store/apps/details?id=com.godcount.rpass
         - theme: alt
-          text: Google Play
-          link: https://play.google.com/store/apps/details?id=com.godcount.rpass
-        - theme: alt
-          text: Github
-          link: https://github.com/GodCount/rpass-flutter.git
+          text: 立即下载
+          link: https://github.com/GodCount/rpass-flutter/releases/latest
     image:
         src: /rpass.svg
         alt: Rpass
@@ -31,7 +31,7 @@ features:
       link: /guide/auto-fill
     - icon: "🌐"
       title: 局域网填充服务
-      details: 在局域网环境中发现设备并提供安全填充服务，提升团队内登录体验。
+      details: 在局域网环境中发现设备并提供安全填充服务，无需在目标设备保存副本。
       link: /guide/local-network-fill-service
     - icon: "🔄"
       title: WebDAV 同步
