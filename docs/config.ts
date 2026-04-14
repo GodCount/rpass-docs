@@ -101,7 +101,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             text: "安全与隐私",
             collapsed: false,
             items: [
-                { text: "主密码设置与密码策略", link: "master-password-setup-and-password-policies" },
+                {
+                    text: "主密码设置与密码策略",
+                    link: "master-password-setup-and-password-policies",
+                },
                 { text: "备份与恢复", link: "backup-and-restore" },
             ],
         },

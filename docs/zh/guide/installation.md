@@ -13,9 +13,9 @@
 
 1. 访问 [Rpass 官方网站](https://rpass.example.com) 或 GitHub 发布页面。
 2. 下载适合你操作系统的安装包。
-   - Windows: .exe 或 .msi
-   - macOS: .dmg
-   - Linux: .deb 或 .rpm
+    - Windows: .exe 或 .msi
+    - macOS: .dmg
+    - Linux: .deb 或 .rpm
 
 ## 安装步骤
 
@@ -35,11 +35,11 @@
 ### Linux
 
 1. 使用包管理器安装：
-   ```bash
-   sudo dpkg -i rpass.deb  # 对于 .deb
-   # 或
-   sudo rpm -i rpass.rpm   # 对于 .rpm
-   ```
+    ```bash
+    sudo dpkg -i rpass.deb  # 对于 .deb
+    # 或
+    sudo rpm -i rpass.rpm   # 对于 .rpm
+    ```
 2. 启动 Rpass。
 
 ## 注册账户
@@ -47,8 +47,8 @@
 1. 首次启动 Rpass 时，选择 "创建新账户"。
 2. 输入你的邮箱地址（可选，用于恢复）。
 3. 设置主密码：这是一个强密码，用于加密你的密码库。
-   - 至少 12 个字符
-   - 包含大写、小写、数字和符号
+    - 至少 12 个字符
+    - 包含大写、小写、数字和符号
 4. 确认主密码。
 5. 创建你的第一个密码库。
 
