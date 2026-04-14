@@ -11,7 +11,6 @@ export default defineAdditionalConfig({
 
         sidebar: {
             "/guide/": { base: "/guide/", items: sidebarGuide() },
-            "/faq/": { base: "/faq/", items: sidebarFaq() },
             "/blog/": { base: "/blog/", items: sidebarBlog() },
             "/connect/": { base: "/connect/", items: sidebarConnect() },
         },
@@ -64,18 +63,13 @@ function nav(): DefaultTheme.NavItem[] {
             activeMatch: "/guide/",
         },
         {
-            text: "常见问题",
-            link: "/faq/import",
-            activeMatch: "/faq/",
-        },
-        {
             text: "博客",
             link: "/blog/new",
             activeMatch: "/blog/",
         },
         {
             text: "联系我们",
-            link: "/connect",
+            link: "/connect/connect",
             activeMatch: "/connect/",
         },
     ];
@@ -86,7 +80,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         {
             text: "简介",
             collapsed: false,
-            items: [{ text: "什么是 Rpass？", link: "what-is-rpass" }],
+            link: "what-is-rpass",
         },
         {
             text: "快速入门",
@@ -138,20 +132,18 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     ];
 }
 
-function sidebarFaq(): DefaultTheme.SidebarItem[] {
-    return [
-        {
-            text: "迁移",
-            items: [{ text: "导入", link: "import" }],
-        },
-    ];
-}
-
 function sidebarBlog(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "最新公告",
-            items: [{ text: "最新公告", link: "new" }],
+            link: "new",
+        },
+        {
+            text: "常见问题",
+            items: [
+                { text: "FAQ", link: "faq" },
+                { text: "浏览器迁移", link: "migration-browser" },
+            ],
         },
     ];
 }
@@ -160,7 +152,11 @@ function sidebarConnect(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "联系我们",
-            items: [{ text: "联系我们", link: "connect" }],
+            link: "connect",
+        },
+        {
+            text: "赞助&支持",
+            link: "sponsors",
         },
     ];
 }

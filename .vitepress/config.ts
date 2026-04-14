@@ -6,6 +6,7 @@ export default defineConfig({
     title: "Rpass",
     lang: "zh",
 
+    cleanUrls: true,
     rewrites: {
         "zh/:rest*": ":rest*",
     },
@@ -32,4 +33,10 @@ export default defineConfig({
             lang: "en",
         },
     },
+
+    vite: {
+        server: {
+            host: "0.0.0.0"
+        }
+    }
 });

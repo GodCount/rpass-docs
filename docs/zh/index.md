@@ -11,6 +11,9 @@ hero:
           text: 快速开始
           link: /guide/what-is-rpass
         - theme: alt
+          text: Google Play
+          link: https://play.google.com/store/apps/details?id=com.godcount.rpass
+        - theme: alt
           text: Github
           link: https://github.com/GodCount/rpass-flutter.git
     image:

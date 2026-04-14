@@ -2,15 +2,16 @@
 
 欢迎使用 Rpass！
 
-## 最新更新
 
-- 版本 1.0 发布：基础功能完整。
-- 新功能：WebDAV 同步。
-- 修复：自动填充改进。
+- [CHANGELOG](https://github.com/GodCount/rpass-flutter/blob/master/CHANGELOG.md)
+
 
 ## 即将到来
+上架 Google Play
+支持更多在线同步平台
+支持更多数据模板
 
-- 移动端应用。
-- 团队功能。
 
-保持关注更新。
+> 保持关注更新。
+
+
