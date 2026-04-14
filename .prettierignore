@@ -1,0 +1,8 @@
+node_modules
+.vitepress/dist
+dist
+.env
+*.lock
+package-lock.json
+bun.lockb
+pnpm-lock.yaml

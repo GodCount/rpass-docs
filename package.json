@@ -1,0 +1,23 @@
+{
+  "name": "rpass-docs",
+  "version": "1.0.0",
+  "description": "Rpass Docs",
+  "repository": "github:vuejs/vitepress",
+  "license": "MIT",
+  "author": "God Count",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "vue": "^3.5.32"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "prettier": "^3.8.2",
+    "vitepress": "^2.0.0-alpha.17"
+  }
+}
