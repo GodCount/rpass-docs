@@ -101,19 +101,25 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
                 { text: "局域网填充服务", link: "local-network-fill-service" },
                 { text: "密码生成器", link: "password-generator" },
                 { text: "搜索与快速访问", link: "search-and-quick-access" },
-                { text: "标签与分组", link: "tags-and-groups" },
+                { text: "分组", link: "groups" },
                 { text: "导入与导出", link: "importing-and-exporting" },
+                { text: "快捷键", link: "keyboard-shortcuts" },
             ],
         },
         {
-            text: "更多功能",
+            text: "扩展功能",
             collapsed: false,
             items: [
-                { text: "密码克隆", link: "password-cloning" },
-                { text: "快捷键", link: "keyboard-shortcuts" },
+                { text: "启动聚焦搜索", link: "focus-on-startup" },
                 { text: "Favicon 显示", link: "favicon-display" },
-                { text: "启动聚焦", link: "focus-on-startup" },
+                { text: "密码克隆", link: "password-cloning" },
+                { text: "密码修改历史", link: "password-change-history" },
             ],
+        },
+        {
+            text: "高级功能",
+            collapsed: false,
+            items: [{ text: "自定义填充序列", link: "custom-fill-sequences" }],
         },
     ];
 }
