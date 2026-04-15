@@ -14,7 +14,8 @@
     },
     "dependencies": {
         "@vercel/analytics": "^2.0.1",
-        "vue": "^3.5.32"
+        "vue": "^3.5.32",
+        "vitepress-plugin-comment-with-giscus": "^1.1.15"
     },
     "devDependencies": {
         "@types/node": "^25.6.0",
