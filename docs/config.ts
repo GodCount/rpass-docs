@@ -112,7 +112,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: "启动聚焦搜索", link: "focus-on-startup" },
                 { text: "Favicon 显示", link: "favicon-display" },
-                { text: "密码克隆", link: "password-cloning" },
+                { text: "生物识别解锁", link: "fingerprint-unlock" },
                 { text: "密码修改历史", link: "password-change-history" },
             ],
         },
