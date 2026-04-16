@@ -1,5 +1,4 @@
 <script setup>
-// import { Layout } from "vitepress/theme";
 import giscusTalk from "vitepress-plugin-comment-with-giscus";
 import { useData, useRoute } from "vitepress";
 import { toRefs } from "vue";
@@ -43,7 +42,7 @@ giscusTalk(
     // 默认为 true，表示启用，此参数可忽略；
     // 如果为 false，表示不启用。
     // 可以在页面使用 `comment: true` 前言单独启用
-    true,
+    import.meta.env.PROD,
 );
 </script>
 
