@@ -3,16 +3,13 @@
 layout: home
 
 hero:
-    name: "Rpass"
+    name: "Rpass 3.0"
     text: 开源的密码管理器
     tagline: Rpass 旨在提供安全、便捷的密码存储和管理解决方案。
     actions:
         - theme: brand
           text: 快速开始
           link: /guide/what-is-rpass
-        # - theme: alt
-        #   text: Google Play
-        #   link: https://play.google.com/store/apps/details?id=com.godcount.rpass
         - theme: alt
           text: 立即下载
           link: https://github.com/GodCount/rpass-flutter/releases/latest
